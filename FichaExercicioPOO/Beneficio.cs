@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace FichaExercicioPOO
 {
-    internal interface Beneficio
+    interface Beneficio
     {
+        string FornecerPlanoDeSaude();
     }
 }
